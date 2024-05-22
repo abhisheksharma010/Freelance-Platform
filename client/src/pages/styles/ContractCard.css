@@ -1,0 +1,33 @@
+.contract-card {
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contract-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contract-card h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contract-card p {
+  margin: 5px 0;
+  color: #666;
+}
+.contract-card-link {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+.contract-card-link:focus,
+.contract-card-link:hover {
+  color: inherit;
+}

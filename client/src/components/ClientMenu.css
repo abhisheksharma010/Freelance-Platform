@@ -1,0 +1,41 @@
+.dashboard-menu {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 30px;
+  border: 2px solid #ffd166;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.dashboard-menu h4 {
+  font-size: 28px;
+  font-weight: bold;
+  background-color: #fcb205 !important;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+.dashboard-menu .list-group-item {
+  padding: 18px 25px;
+  font-size: 20px;
+  color: #333;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dashboard-menu .list-group-item:hover {
+  background-color: #fffcdb;
+  color: #333;
+}
+
+.dashboard-menu .list-group-item.active {
+  background-color: #ffd166;
+  color: #fff;
+}
+
+.dashboard-menu .list-group-item:not(:last-child) {
+  margin-bottom: 20px;
+}

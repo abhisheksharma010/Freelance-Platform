@@ -1,0 +1,116 @@
+.contract-detail-container {
+  /* display: flex; */
+  justify-content: space-around;
+  /* align-items: flex-start; */
+  padding: 20px;
+  margin-top: 20px;
+}
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.contract-detail-card,
+.client-detail-card {
+  width: 100%;
+  padding: 20px;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contract-detail-card {
+  margin-right: 20px;
+}
+
+.category {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.contract-details p {
+  margin: 8px 0;
+}
+
+.client-detail-card {
+  flex: 1;
+  max-width: 400px;
+  /* margin-left: 20px; */
+  margin-top: 20px;
+}
+.proposal-form-container {
+  width: 400px;
+  margin: 20px 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.proposal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.proposal-label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.proposal-input {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-proposal-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-proposal-button:hover {
+  background-color: #0056b3;
+}
+
+.previous-proposal {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.delete-proposal-button {
+  margin-top: 10px;
+}
+
+.no-proposal {
+  margin-top: 20px;
+  color: #888;
+}
+.toggle-previous-proposal-btn {
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+}
+
+.toggle-previous-proposal-btn:hover {
+  background-color: #e0e0e0;
+}
