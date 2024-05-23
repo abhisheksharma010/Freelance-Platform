@@ -2,9 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import axios from "axios";
+
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { AuthProvider } from "./context/auth";
+axios.defaults.baseURL = "https://backendd-z9zv.onrender.com/"
+
 // import "antd/dist/reset.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
