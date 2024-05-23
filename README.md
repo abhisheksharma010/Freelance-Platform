@@ -27,6 +27,10 @@ To set up Trust Block on your local machine, follow these steps:
 
 4. **Access Trust Block**: Once both the backend and frontend servers are running, access Trust Block by navigating to `http://localhost:3000` in your web browser.
 
+## Live Demo 🌐
+
+Check out the live version of Trust Block [here](https://freelance-platform-to6j.vercel.app/).
+
 ## Contributing 🤝
 
 Contributions are welcome! If you encounter any bugs or have suggestions for improvements, please open an issue or submit a pull request.
